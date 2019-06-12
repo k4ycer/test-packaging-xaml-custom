@@ -1,0 +1,17 @@
+C:\Users\t-edto\source\repos\TestPackaging\PackageProject\Images\SplashScreen.scale-200.png
+C:\Users\t-edto\source\repos\TestPackaging\PackageProject\Images\LockScreenLogo.scale-200.png
+C:\Users\t-edto\source\repos\TestPackaging\PackageProject\Images\Square150x150Logo.scale-200.png
+C:\Users\t-edto\source\repos\TestPackaging\PackageProject\Images\Square44x44Logo.scale-200.png
+C:\Users\t-edto\source\repos\TestPackaging\PackageProject\Images\Square44x44Logo.targetsize-24_altform-unplated.png
+C:\Users\t-edto\source\repos\TestPackaging\PackageProject\Images\StoreLogo.png
+C:\Users\t-edto\source\repos\TestPackaging\PackageProject\Images\Wide310x150Logo.scale-200.png
+C:\Users\t-edto\source\repos\TestPackaging\PackageProject\bin\x64\Debug\resources.pri
+C:\Users\t-edto\source\repos\TestPackaging\packages\Microsoft.Toolkit.Wpf.UI.Controls.5.1.1\lib\net462\Microsoft.Toolkit.Wpf.UI.Controls.dll
+C:\Users\t-edto\source\repos\TestPackaging\packages\Microsoft.Toolkit.Wpf.UI.XamlHost.5.1.1\lib\net462\Microsoft.Toolkit.Wpf.UI.XamlHost.dll
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Runtime.WindowsRuntime.dll
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Runtime.WindowsRuntime.UI.Xaml.dll
+C:\Users\t-edto\source\repos\TestPackaging\packages\Microsoft.Toolkit.Wpf.UI.Controls.5.1.1\lib\net462\Microsoft.Toolkit.Wpf.UI.Controls.pdb
+C:\Users\t-edto\source\repos\TestPackaging\packages\Microsoft.Toolkit.Wpf.UI.XamlHost.5.1.1\lib\net462\Microsoft.Toolkit.Wpf.UI.XamlHost.pdb
+C:\Users\t-edto\source\repos\TestPackaging\TestPackaging\bin\Debug\TestPackaging.exe
+C:\Users\t-edto\source\repos\TestPackaging\TestPackaging\bin\Debug\TestPackaging.exe.config
+C:\Users\t-edto\source\repos\TestPackaging\TestPackaging\bin\Debug\TestPackaging.pdb

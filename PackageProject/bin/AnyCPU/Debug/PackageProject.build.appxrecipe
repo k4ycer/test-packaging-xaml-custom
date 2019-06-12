@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>EDUARDO-DEV</Machine>
+    <WindowsUser>t-edto</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>d432f16e-223b-439d-a1df-058a50cd227b</PackageIdentityName>
+    <PackageIdentityPublisher>CN=t-edto</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\t-edto\source\repos\TestPackaging\PackageProject\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath></WindowsSdkPath>
+    <LayoutDir>C:\Users\t-edto\source\repos\TestPackaging\PackageProject\bin\AnyCPU\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\t-edto\source\repos\TestPackaging\PackageProject\bin\AnyCPU\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\t-edto\source\repos\TestPackaging\PackageProject\Images\SplashScreen.scale-200.png">
+      <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-edto\source\repos\TestPackaging\PackageProject\Images\LockScreenLogo.scale-200.png">
+      <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-edto\source\repos\TestPackaging\PackageProject\Images\Square150x150Logo.scale-200.png">
+      <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-edto\source\repos\TestPackaging\PackageProject\Images\Square44x44Logo.scale-200.png">
+      <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-edto\source\repos\TestPackaging\PackageProject\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-edto\source\repos\TestPackaging\PackageProject\Images\StoreLogo.png">
+      <PackagePath>Images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-edto\source\repos\TestPackaging\PackageProject\Images\Wide310x150Logo.scale-200.png">
+      <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-edto\source\repos\TestPackaging\PackageProject\bin\AnyCPU\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-edto\source\repos\TestPackaging\packages\Microsoft.Toolkit.Wpf.UI.Controls.5.1.1\lib\net462\Microsoft.Toolkit.Wpf.UI.Controls.dll">
+      <PackagePath>TestPackaging\Microsoft.Toolkit.Wpf.UI.Controls.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-edto\source\repos\TestPackaging\packages\Microsoft.Toolkit.Wpf.UI.XamlHost.5.1.1\lib\net462\Microsoft.Toolkit.Wpf.UI.XamlHost.dll">
+      <PackagePath>TestPackaging\Microsoft.Toolkit.Wpf.UI.XamlHost.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Runtime.WindowsRuntime.dll">
+      <PackagePath>TestPackaging\System.Runtime.WindowsRuntime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+      <PackagePath>TestPackaging\System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-edto\source\repos\TestPackaging\TestPackaging\bin\Debug\TestPackaging.exe">
+      <PackagePath>TestPackaging\TestPackaging.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\t-edto\source\repos\TestPackaging\TestPackaging\bin\Debug\TestPackaging.exe.config">
+      <PackagePath>TestPackaging\TestPackaging.exe.config</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

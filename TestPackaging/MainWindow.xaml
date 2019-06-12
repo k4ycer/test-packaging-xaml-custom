@@ -1,0 +1,15 @@
+﻿<Window x:Class="TestPackaging.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestPackaging"
+        mc:Ignorable="d"
+        xmlns:xamlhost="clr-namespace:Microsoft.Toolkit.Wpf.UI.XamlHost;assembly=Microsoft.Toolkit.Wpf.UI.XamlHost"
+        Title="MainWindow" Height="450" Width="800">
+    <!-- This one succeeds: -->
+    <!--<xamlhost:WindowsXamlHost InitialTypeName="Windows.UI.Xaml.Controls.CalendarView" x:Name="CalendarUwp"  />-->
+
+    <!-- This one fails: https://docs.microsoft.com/en-us/windows/communitytoolkit/controls/wpf-winforms/windowsxamlhost#add-a-custom-uwp-control -->
+    <xamlhost:WindowsXamlHost InitialTypeName="UWPClassLibrary.BlankPage1" x:Name="CalendarUwp" ChildChanged="WindowsXamlHost_ChildChanged" />
+</Window>
